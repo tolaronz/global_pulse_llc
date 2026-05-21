@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background: #f7f9fb;
+  color: #151b22;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at 24px 24px, rgba(20, 184, 166, 0.06) 0 1px, transparent 1px),
+    linear-gradient(180deg, #f7f9fb 0%, #edf1f4 100%);
+  background-size: 32px 32px, 100% 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: #ccfbf1;
+  color: #101418;
+}
